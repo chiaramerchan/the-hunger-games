@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sitio dedicado al universo de The Hunger Games.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>The Hunger Games</title>
+</head>
+<body>
+  <a class="home-corner-link" href="#inicio">HOME</a>
+  <header class="site-header">
+    <nav class="main-navigation" aria-label="Navegación principal">
+      <a class="site-logo" href="#inicio">The Hunger Games</a>
+      <ul class="navigation-list">
+        <li><a href="distritos.html">Distritos</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <h1 id="hero-title"><span>THE</span><span>HUNGER GAMES</span></h1>
+        <img class="mockingjay-symbol" src="images/sinsajo%20simbolo%20.png" alt="Símbolo del Sinsajo">
+      </div>
+    </section>
+
+    <section id="personajes" class="characters-section" aria-labelledby="characters-title">
+      <div class="section-heading">
+        <h2 id="characters-title">PERSONAJES CLAVE</h2>
+      </div>
+      <div class="characters-list">
+        <article class="character-card home-character-trigger" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Ver información de Peeta Mellark" data-character-modal="home-peeta-modal">
+          <img class="character-image" src="images/peeta.png" alt="Retrato de Peeta Mellark">
+          <div class="character-information">
+            <h3>Peeta Mellark</h3>
+            <p>El tributo del Distrito 12 cuya empatía y valentía desafían las reglas de los Juegos.</p>
+          </div>
+        </article>
+        <article class="character-card home-character-trigger" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Ver información de Katniss Everdeen" data-character-modal="home-katniss-modal">
+          <img class="character-image" src="images/katniss.png" alt="Retrato de Katniss Everdeen">
+          <div class="character-information">
+            <h3>Katniss Everdeen</h3>
+            <p>Una arquera decidida que se convierte en el rostro de la resistencia contra el Capitolio.</p>
+          </div>
+        </article>
+        <article class="character-card home-character-trigger" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Ver información del Presidente Snow" data-character-modal="home-snow-modal">
+          <img class="character-image" src="images/presidente.png" alt="Retrato del Presidente Snow">
+          <div class="character-information">
+            <h3>Presidente Snow</h3>
+            <p>El líder del Capitolio, dispuesto a usar el miedo y el poder para conservar su dominio.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="home-peeta-modal" class="home-character-modal" aria-hidden="true" aria-labelledby="home-peeta-title">
+      <div class="home-character-modal-card" role="dialog" aria-modal="true" aria-describedby="home-peeta-description">
+        <button class="home-character-modal-close" type="button" aria-label="Cerrar información de Peeta Mellark">×</button>
+        <div class="home-character-modal-image-wrap"><img src="images/peeta%20mellark.jpeg" alt="Peeta Mellark"></div>
+        <div class="home-character-modal-content">
+          <p class="home-character-modal-eyebrow">DISTRITO 12</p>
+          <h2 id="home-peeta-title">Peeta Mellark</h2>
+          <div class="home-character-modal-rule"></div>
+          <p id="home-peeta-description">Peeta Mellark es uno de los protagonistas de <em>Los Juegos del Hambre</em>. Es amable, inteligente y empático, y se destaca por su capacidad para mantener la esperanza incluso en situaciones difíciles. Su vínculo con Katniss es fundamental a lo largo de la historia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="home-katniss-modal" class="home-character-modal" aria-hidden="true" aria-labelledby="home-katniss-title">
+      <div class="home-character-modal-card" role="dialog" aria-modal="true" aria-describedby="home-katniss-description">
+        <button class="home-character-modal-close" type="button" aria-label="Cerrar información de Katniss Everdeen">×</button>
+        <div class="home-character-modal-image-wrap"><img src="images/katniss%20everdeen.jpeg?v=3" alt="Katniss Everdeen"></div>
+        <div class="home-character-modal-content">
+          <p class="home-character-modal-eyebrow">DISTRITO 12</p>
+          <h2 id="home-katniss-title">Katniss Everdeen</h2>
+          <div class="home-character-modal-rule"></div>
+          <p id="home-katniss-description">Katniss Everdeen es la protagonista de <em>Los Juegos del Hambre</em>. Es valiente, independiente y protectora, especialmente con su familia. Su habilidad con el arco y su espíritu rebelde la convierten en un símbolo de esperanza y resistencia contra el Capitolio.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="home-snow-modal" class="home-character-modal" aria-hidden="true" aria-labelledby="home-snow-title">
+      <div class="home-character-modal-card" role="dialog" aria-modal="true" aria-describedby="home-snow-description">
+        <button class="home-character-modal-close" type="button" aria-label="Cerrar información del Presidente Snow">×</button>
+        <div class="home-character-modal-image-wrap"><img src="images/presidente%20snow.jpeg" alt="Presidente Snow"></div>
+        <div class="home-character-modal-content">
+          <p class="home-character-modal-eyebrow">CAPITOLIO</p>
+          <h2 id="home-snow-title">Presidente Snow</h2>
+          <div class="home-character-modal-rule"></div>
+          <p id="home-snow-description">El <strong>presidente Snow</strong> es el líder del Capitolio y el principal antagonista de la saga. Es manipulador, cruel y autoritario, y utiliza el miedo y el poder para mantener el control sobre los distritos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="saga" class="saga-section" aria-labelledby="saga-title">
+      <div class="saga-content">
+        <h2 id="saga-title">CONOCÉ LA SAGA</h2>
+        <p>En un futuro distópico, Panem está dividido en 12 distritos bajo el control del Capitolio. Cada año, dos jóvenes de cada distrito son elegidos para participar en los Juegos del Hambre, una competencia a muerte transmitida para todo el país.<br>La historia sigue a Katniss Everdeen, quien se ofrece como voluntaria para proteger a su hermana y termina convirtiéndose en el símbolo de una rebelión contra el Capitolio.<br>A lo largo de la saga, Katniss y sus aliados enfrentan los Juegos, la guerra y las consecuencias de desafiar al poder, mientras luchan por recuperar la libertad de los distritos.</p>
+      </div>
+      <img class="saga-mockingjay-symbol" src="images/sinsajo%20simbolo%20.png" alt="Símbolo decorativo del Sinsajo">
+    </section>
+
+    <section id="distrito-12" class="district-section" aria-labelledby="district-title">
+      <div class="district-content">
+        <div class="district-visual">
+          <h2 id="district-title">DISTRITO 12</h2>
+          <div class="district-symbol-placeholder">
+          <img src="images/district.png" alt="Símbolo del Distrito 12">
+          </div>
+        </div>
+        <div class="district-information">
+          <p>Conocido por sus minas de carbón, el Distrito 12 es uno de los más pobres de Panem. A pesar de las dificultades, sus habitantes se caracterizan por su fortaleza y resistencia. Es el hogar de Katniss Everdeen y Peeta Mellark, quienes son elegidos para representar al distrito en los Juegos del Hambre.</p>
+          <a class="district-link" href="distritos.html">Conocé los demás distritos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer">
+    <div class="site-footer-content">
+      <div class="site-footer-information"><p class="site-footer-brand">THE HUNGER GAMES</p><p>UNIVERSO DE PANEM</p><p>Explorá los distritos, personajes y películas.</p><p>Sitio fan no oficial · © 2026</p></div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página"><ul class="footer-links"><li><a href="#inicio" aria-label="Ir al inicio"><img src="images/simbolo%20capitolio%20negro.png" alt="Símbolo del Capitolio"></a></li><li><a href="personajes.html" aria-label="Ver personajes"><img src="images/sinsajo%20negro.png" alt="Símbolo del Sinsajo"></a></li><li><a href="galeria.html" aria-label="Ver galería"><img src="images/simbolo%20negro%20.png" alt="Símbolo de la galería"></a></li></ul></nav>
+    </div>
+  </footer>
+</body>
+</html>

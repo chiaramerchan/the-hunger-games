@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trailers de las películas de The Hunger Games.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>The Hunger Games - Películas</title>
+</head>
+<body class="movies-page">
+  <a class="home-corner-link" href="index.html">HOME</a>
+  <header class="districts-header">
+    <a class="districts-home-link" href="index.html">THE HUNGER GAMES</a>
+    <nav class="districts-navigation" aria-label="Navegación principal">
+      <ul>
+        <li><a href="distritos.html">Distritos</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a class="is-active" href="#peliculas">Películas</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="peliculas" class="movies-main">
+    <section class="movies-heading" aria-labelledby="movies-title">
+      <p>THE HUNGER GAMES</p>
+      <h1 id="movies-title">PELÍCULAS</h1>
+    </section>
+
+    <section class="movies-saga" aria-labelledby="saga-trailers-title">
+      <h2 id="saga-trailers-title">LA SAGA ORIGINAL</h2>
+      <div class="movies-grid movies-grid-saga">
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="mfmrPu43DF8" data-trailer-title="The Hunger Games"><span class="trailer-title">The Hunger Games</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="joPveEKnxaw" data-trailer-title="Catching Fire"><span class="trailer-title">Catching Fire</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="3PkkHsuMrho" data-trailer-title="Mockingjay — Parte 1"><span class="trailer-title">Mockingjay — Parte 1</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="n-7K_OjsDCQ" data-trailer-title="Mockingjay — Parte 2"><span class="trailer-title">Mockingjay — Parte 2</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+      </div>
+    </section>
+
+    <section class="movies-expanded" aria-labelledby="expanded-trailers-title">
+      <h2 id="expanded-trailers-title">EL UNIVERSO DE PANEM</h2>
+      <div class="movies-grid movies-grid-expanded">
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="RDE6Uz73A7g" data-trailer-title="The Ballad of Songbirds &amp; Snakes"><span class="trailer-title">The Ballad of Songbirds &amp; Snakes</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+        <button class="trailer-card movie-trailer-trigger" type="button" data-trailer-id="fS35YSjopjE" data-trailer-title="Sunrise on the Reaping"><span class="trailer-title">Sunrise on the Reaping</span><span class="trailer-frame" aria-hidden="true"><span>▶</span></span></button>
+      </div>
+    </section>
+
+    <section class="movie-modal" aria-hidden="true" aria-labelledby="movie-modal-title">
+      <div class="movie-modal-card" role="dialog" aria-modal="true">
+        <button class="movie-modal-close" type="button" aria-label="Cerrar trailer">×</button>
+        <h2 id="movie-modal-title"></h2>
+        <div class="movie-modal-frame"><iframe src="" title="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-content">
+      <div class="site-footer-information"><p class="site-footer-brand">THE HUNGER GAMES</p><p>UNIVERSO DE PANEM</p><p>Explorá los distritos, personajes y películas.</p><p>Sitio fan no oficial · © 2026</p></div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página"><ul class="footer-links"><li><a href="index.html" aria-label="Ir al inicio"><img src="images/simbolo%20capitolio%20negro.png" alt="Símbolo del Capitolio"></a></li><li><a href="personajes.html" aria-label="Ver personajes"><img src="images/sinsajo%20negro.png" alt="Símbolo del Sinsajo"></a></li><li><a href="galeria.html" aria-label="Ver galería"><img src="images/simbolo%20negro%20.png" alt="Símbolo de la galería"></a></li></ul></nav>
+    </div>
+  </footer>
+</body>
+</html>

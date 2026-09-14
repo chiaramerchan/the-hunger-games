@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Galería de The Hunger Games.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>The Hunger Games - Galería</title>
+</head>
+<body class="gallery-page">
+  <a class="home-corner-link" href="index.html">HOME</a>
+  <header class="districts-header">
+    <a class="districts-home-link" href="index.html">THE HUNGER GAMES</a>
+    <nav class="districts-navigation" aria-label="Navegación principal">
+      <ul>
+        <li><a href="distritos.html">Distritos</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+        <li><a class="is-active" href="#galeria">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="galeria" class="gallery-main">
+    <section class="gallery-heading" aria-labelledby="gallery-title">
+      <p>THE HUNGER GAMES</p>
+      <h1 id="gallery-title">GALERÍA</h1>
+    </section>
+    <div class="gallery-carousel-viewport">
+      <div class="gallery-carousel-track">
+    <section class="gallery-grid gallery-page-grid is-active" aria-label="Primera página de la galería">
+      <div class="gallery-placeholder is-filled"><img src="images/1.jpeg" alt="Imagen de la galería 1"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/2.jpeg" alt="Imagen de la galería 2"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/3.jpeg" alt="Imagen de la galería 3"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/4.jpeg" alt="Imagen de la galería 4"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/6.jpeg" alt="Imagen de la galería 6"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/7.jpeg" alt="Imagen de la galería 7"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/8.jpeg" alt="Imagen de la galería 8"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/9.jpeg" alt="Imagen de la galería 9"></div>
+    </section>
+
+    <section class="gallery-grid gallery-page-grid" aria-label="Segunda página de la galería" aria-hidden="true">
+      <div class="gallery-placeholder is-filled"><img src="images/10.jpeg" alt="Imagen de la galería 10"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/11.jpeg" alt="Imagen de la galería 11"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/12.jpeg" alt="Imagen de la galería 12"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/13.jpeg" alt="Imagen de la galería 13"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/14.jpeg" alt="Imagen de la galería 14"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/15.jpeg" alt="Imagen de la galería 15"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/16.jpeg" alt="Imagen de la galería 16"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/17.jpeg" alt="Imagen de la galería 17"></div>
+    </section>
+
+    <section class="gallery-grid gallery-page-grid" aria-label="Tercera página de la galería" aria-hidden="true">
+      <div class="gallery-placeholder is-filled"><img src="images/5.jpeg" alt="Imagen de la galería 5"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/18.jpeg" alt="Imagen de la galería 18"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/19.jpeg" alt="Imagen de la galería 19"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/20.jpeg" alt="Imagen de la galería 20"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/21.jpeg" alt="Imagen de la galería 21"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/22.jpeg" alt="Imagen de la galería 22"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/23.jpeg" alt="Imagen de la galería 23"></div>
+      <div class="gallery-placeholder is-filled"><img src="images/24.jpeg" alt="Imagen de la galería 24"></div>
+    </section>
+      </div>
+    </div>
+
+    <nav class="gallery-pagination" aria-label="Páginas de galería">
+      <button class="gallery-page-previous" type="button" aria-label="Ver grilla anterior" disabled>←</button>
+      <span class="gallery-page-indicator" aria-live="polite">1 / 3</span>
+      <button class="gallery-page-next" type="button" aria-label="Ver siguiente grilla">→</button>
+    </nav>
+
+    <section class="gallery-modal" aria-hidden="true" aria-labelledby="gallery-modal-title">
+      <div class="gallery-modal-card" role="dialog" aria-modal="true">
+        <button class="gallery-modal-close" type="button" aria-label="Cerrar imagen">×</button>
+        <h2 id="gallery-modal-title" class="visually-hidden">Imagen ampliada de la galería</h2>
+        <div class="gallery-modal-image-wrap"><img class="gallery-modal-image" src="" alt=""></div>
+        <div class="gallery-modal-actions">
+          <a class="gallery-modal-download" href="" download>Descargar</a>
+          <button class="gallery-modal-share" type="button">Compartir</button>
+          <button class="gallery-modal-favorite" type="button" aria-pressed="false">♡ Favorito</button>
+        </div>
+        <p class="gallery-modal-status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-content">
+      <div class="site-footer-information"><p class="site-footer-brand">THE HUNGER GAMES</p><p>UNIVERSO DE PANEM</p><p>Explorá los distritos, personajes y películas.</p><p>Sitio fan no oficial · © 2026</p></div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página"><ul class="footer-links"><li><a href="index.html" aria-label="Ir al inicio"><img src="images/simbolo%20capitolio%20negro.png" alt="Símbolo del Capitolio"></a></li><li><a href="personajes.html" aria-label="Ver personajes"><img src="images/sinsajo%20negro.png" alt="Símbolo del Sinsajo"></a></li><li><a href="galeria.html" aria-label="Ver galería"><img src="images/simbolo%20negro%20.png" alt="Símbolo de la galería"></a></li></ul></nav>
+    </div>
+  </footer>
+</body>
+</html>

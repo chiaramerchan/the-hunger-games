@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacto de The Hunger Games.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>The Hunger Games - Contacto</title>
+</head>
+<body class="contact-page">
+  <a class="home-corner-link" href="index.html">HOME</a>
+  <header class="districts-header">
+    <a class="districts-home-link" href="index.html">THE HUNGER GAMES</a>
+    <nav class="districts-navigation" aria-label="Navegación principal">
+      <ul>
+        <li><a href="distritos.html">Distritos</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li><a href="peliculas.html">Películas</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a class="is-active" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contacto" class="contact-main">
+    <section class="contact-heading" aria-labelledby="contact-title">
+      <p>THE HUNGER GAMES</p>
+      <h1 id="contact-title">CONTACTO</h1>
+      <p>Dejanos tus datos y nos pondremos en contacto con vos.</p>
+    </section>
+
+    <section class="contact-layout" aria-label="Formulario e información de contacto">
+      <form class="contact-form">
+        <h2>ENVIANOS UN MENSAJE</h2>
+        <label for="contact-name">Nombre</label>
+        <input id="contact-name" name="name" type="text" autocomplete="name" required>
+        <label for="contact-email">Gmail</label>
+        <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="nombre@gmail.com" required>
+        <label for="contact-phone">Teléfono</label>
+        <input id="contact-phone" name="phone" type="tel" autocomplete="tel" placeholder="+54 11 0000 0000">
+        <button type="submit">ENVIAR</button>
+        <p class="contact-form-status" aria-live="polite"></p>
+      </form>
+
+      <aside class="contact-info" aria-label="Información adicional">
+        <section class="contact-info-card">
+          <h2>CORREO</h2>
+          <p>Escribinos o dejá tu Gmail en el formulario.</p>
+        </section>
+        <section class="contact-info-card">
+          <h2>TELÉFONO</h2>
+          <p>Dejá tu número y te responderemos a la brevedad.</p>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-content">
+      <div class="site-footer-information"><p class="site-footer-brand">THE HUNGER GAMES</p><p>UNIVERSO DE PANEM</p><p>Explorá los distritos, personajes y películas.</p><p>Sitio fan no oficial · © 2026</p></div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página"><ul class="footer-links"><li><a href="index.html" aria-label="Ir al inicio"><img src="images/simbolo%20capitolio%20negro.png" alt="Símbolo del Capitolio"></a></li><li><a href="personajes.html" aria-label="Ver personajes"><img src="images/sinsajo%20negro.png" alt="Símbolo del Sinsajo"></a></li><li><a href="galeria.html" aria-label="Ver galería"><img src="images/simbolo%20negro%20.png" alt="Símbolo de la galería"></a></li></ul></nav>
+    </div>
+  </footer>
+</body>
+</html>
